@@ -315,8 +315,8 @@ footer {
   border-radius: 10px;
 }
 .home .walk .walk-text .btn:hover {
-  background-color: #454a59;
-  color: #f1f1f1;
+  background-color: #f6f6f6;
+  color: #22283a;
   width: 35%;
 }
 @media (max-width: 500px) {
