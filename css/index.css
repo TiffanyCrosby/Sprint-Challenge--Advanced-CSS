@@ -1,3 +1,14 @@
+@keyframes nav-hover {
+  from {
+    background-color: #f6f6f6;
+    color: #454a59;
+  }
+  to {
+    background-color: #81848e;
+    color: black;
+    border: 5px double black;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -191,6 +202,12 @@ p {
   font-size: 1.8rem;
   font-weight: 600;
   color: #454a59;
+}
+.nav nav a:hover {
+  animation-name: nav-hover;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+  padding: 1%;
 }
 @media (max-width: 500px) {
   .nav nav a {
